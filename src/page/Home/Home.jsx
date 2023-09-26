@@ -8,8 +8,8 @@ const Home = () => {
     const cards = useLoaderData()
     
     const [setdata,setSetdata]= useState()
-    const [alldisplay, setAlldisplay] = useState(false)
-    const cardItem = cards.filter(data =>data.category === setdata)
+    const [alldisplay, setAlldisplay] = useState(false) 
+    const cardItem = cards.filter(data =>data.category?.toLowerCase() === setdata?.toLowerCase())
     console.log(setdata);
     
     const handleClick= (e)=>{

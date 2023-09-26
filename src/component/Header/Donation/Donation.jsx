@@ -5,7 +5,7 @@ import DonationsCards from "../../../page/DonationCard/DonationsCards";
 const Donation = () => {
     const [donation,setDonation]= useState([])
     const [noFound,setNoFound]= useState(false)
-    const [isTrue ,setIsTrue] = useState(false)
+    const [isTrue ,setIsTrue] = useState(4)
     useEffect(()=>{
         const donationItem = JSON.parse(localStorage.getItem('donation'))
         if(donationItem){
@@ -26,10 +26,17 @@ const Donation = () => {
         
         
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                {donation.map(donetionclub=><DonationsCards key={donetionclub.id} donetionclub={donetionclub}></DonationsCards>)}
+                {donation.slice(0, isTrue).map(donetionclub=><DonationsCards key={donetionclub.id} donetionclub={donetionclub}></DonationsCards>)}
                 </div>
+               {
+                donation.length >=4 && <div style={{textAlign:'center',paddingTop:'15px'}} className={isTrue === donation.length ? "hidden" : ""}
+                >
+                    <button onClick={()=>setIsTrue(donation.length)} className="px-3 py-2 bg-red-500 rounded-md text-white">See more</button>
+                </div>
+               }
 
-                <button className="px-5 bg-green-200 block mx-auto">See More</button>
+
+               
         
                 </div>} </div>
     );
