@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/kc95PZY/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#0052FF26",
+        "category_bg": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Growing up in a clean and safe environment is every child's right. Access to clean water, basic toilets, and good hygiene practices not only keeps children thriving, but also gives them a healthier start in life.",
+        "price": 450
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/qCv7zsJ/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FF444A26",
+        "category_bg": "#FF444A33",
+        "text_color": "#FF444A",
+        "description": "Good education empowers individuals with knowledge and skills, fosters character development, and promotes social inclusivity. It is essential for personal growth, economic prosperity, civic engagement, and global cooperation. Prioritizing education is crucial for shaping informed, responsible, and compassionate citizens who can navigate the challenges of the modern world.",
+        "price": 440
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/09vrx74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "card_bg": "#79C23F26",
+        "category_bg": "#79C23F33",
+        "text_color": "#79C23F",
+        "description": "A used clothing drive is a charitable initiative that collects gently worn clothing from the community. These donations are then redistributed to those in need, helping individuals and families who may not have access to warm clothing or adequate attire, fostering a sense of community and empathy.",
+        "price": 460
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/3r4bVvc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "card_bg": "#F8714726",
+        "category_bg": "#F8714733",
+        "text_color": "#F87147",
+        "description": "Better food for everyone is a mission to improve food access and quality globally. It aims to provide nutritious, sustainable, and affordable options for all, addressing issues like food deserts, nutrition education, and sustainable farming. This initiative seeks to ensure everyone can enjoy a healthier, more equitable food future.",
+        "price": 430
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/3r4bVvc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "card_bg": "#F8714726",
+        "category_bg": "#F8714733",
+        "text_color": "#F87147",
+        "description": "Better food for everyone is a mission to improve food access and quality globally. It aims to provide nutritious, sustainable, and affordable options for all, addressing issues like food deserts, nutrition education, and sustainable farming. This initiative seeks to ensure everyone can enjoy a healthier, more equitable food future.",
+        "price": 430
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/09vrx74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "card_bg": "#79C23F26",
+        "category_bg": "#79C23F33",
+        "text_color": "#79C23F",
+        "description": "A used clothing drive is a charitable initiative that collects gently worn clothing from the community. These donations are then redistributed to those in need, helping individuals and families who may not have access to warm clothing or adequate attire, fostering a sense of community and empathy.",
+        "price": 460
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/qCv7zsJ/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FF444A26",
+        "category_bg": "#FF444A33",
+        "text_color": "#FF444A",
+        "description": "Good education empowers individuals with knowledge and skills, fosters character development, and promotes social inclusivity. It is essential for personal growth, economic prosperity, civic engagement, and global cooperation. Prioritizing education is crucial for shaping informed, responsible, and compassionate citizens who can navigate the challenges of the modern world.",
+        "price": 440
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/kc95PZY/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#0052FF26",
+        "category_bg": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Growing up in a clean and safe environment is every child's right. Access to clean water, basic toilets, and good hygiene practices not only keeps children thriving, but also gives them a healthier start in life.",
+        "price": 450
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/kc95PZY/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#0052FF26",
+        "category_bg": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Growing up in a clean and safe environment is every child's right. Access to clean water, basic toilets, and good hygiene practices not only keeps children thriving, but also gives them a healthier start in life.",
+        "price": 450
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/qCv7zsJ/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FF444A26",
+        "category_bg": "#FF444A33",
+        "text_color": "#FF444A",
+        "description": "Good education empowers individuals with knowledge and skills, fosters character development, and promotes social inclusivity. It is essential for personal growth, economic prosperity, civic engagement, and global cooperation. Prioritizing education is crucial for shaping informed, responsible, and compassionate citizens who can navigate the challenges of the modern world.",
+        "price": 440
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/kc95PZY/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#0052FF26",
+        "category_bg": "#0052FF33",
+        "text_color": "#0052FF",
+        "description": "Growing up in a clean and safe environment is every child's right. Access to clean water, basic toilets, and good hygiene practices not only keeps children thriving, but also gives them a healthier start in life.",
+        "price": 450
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/09vrx74/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "card_bg": "#79C23F26",
+        "category_bg": "#79C23F33",
+        "text_color": "#79C23F",
+        "description": "A used clothing drive is a charitable initiative that collects gently worn clothing from the community. These donations are then redistributed to those in need, helping individuals and families who may not have access to warm clothing or adequate attire, fostering a sense of community and empathy.",
+        "price": 460
+    }
+]
