@@ -26,12 +26,12 @@ const Statistics = () => {
     },[users])
      const data = [
         ["Task", "Hours per Day"],
-        ["Eat", donet],
-        ["Work", totalDonet]
+        ["Your Donation", donet],
+        ["Total Donation", totalDonet]
 
       ];
        const options = {
-        title: "My Daily Activities",
+        title: "Donation  Activities",
       };
       
     return (

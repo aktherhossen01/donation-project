@@ -1,7 +1,7 @@
 import swal from "sweetalert";
 
 const DonationSingleCard = ({ card }) => {
-  const {id, picture, description, price,text_color } = card;
+  const {id, picture, description,title, price,text_color } = card;
 
 const handleClick=()=>{
     const addArray = []
@@ -37,7 +37,7 @@ const handleClick=()=>{
                 <span onClick={handleClick} style={{background:text_color,color:'white',padding:'12px',borderRadius:'5px',fontFamily:'bold',cursor:'pointer'}}>Price: {price}</span>
             </div>
           </div> 
-
+            <h1 className="text-4xl font-bold py-6">{title}</h1>
           <p>{description}</p>
         </div>
       </div>

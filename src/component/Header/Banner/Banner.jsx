@@ -1,24 +1,14 @@
 /* eslint-disable react/prop-types */
 
-import { useState } from "react";
 
 
-const Banner = ({cards}) => {
-    const [setdata,setSetdata]= useState()
-    const cardItem = cards.filter(data =>data.category === setdata)
-    console.log(cardItem);
+
+const Banner = ({handleClick}) => {
     
-    const handleClick= (e)=>{
-        
-        e.preventDefault()
-        
-        console.log('ami');
-        setSetdata(e.target.text.value)
-    }
   return (
-    <div className="  ">
+    <div className=" mt-5  ">
       <div
-        className="hero min-h-[80vh]"
+        className="hero min-h-[80vh] rounded"
         style={{
           backgroundImage: `url('https://i.ibb.co/rxCFbfd/Rectangle-4281-1.png?fbclid=IwAR22o6dRJVxJAMANis2UsBLjOqAua5cBoxJE1iecWO2LhSkeNlyOpZL78ZU')`,
         }}

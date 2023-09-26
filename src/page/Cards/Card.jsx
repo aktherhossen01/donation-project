@@ -17,7 +17,7 @@ const Card = ({ card }) => {
           />
         </div>
         <div className="p-6">
-          <p style={{color:text_color ,background:category_bg}} className="mt-3 block btn font-sans text-xl font-normal  w-24 px-2 rounded-md ">
+          <p style={{color:text_color ,background:category_bg}} className="mt-3   btn font-sans text-lg font-semibold  w-32  rounded-md ">
             {category}
           </p>
           <h4 className="block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">

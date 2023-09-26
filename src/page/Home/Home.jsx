@@ -1,15 +1,27 @@
 import { useLoaderData } from "react-router-dom";
 import Cards from "../Cards/Cards";
 import Banner from "../../component/Header/Banner/Banner";
+import { useState } from "react";
 
 
 const Home = () => {
     const cards = useLoaderData()
-    // console.log(cards);
+    
+    const [setdata,setSetdata]= useState()
+    const [alldisplay, setAlldisplay] = useState(false)
+    const cardItem = cards.filter(data =>data.category === setdata)
+    console.log(setdata);
+    
+    const handleClick= (e)=>{
+        e.preventDefault()
+        setSetdata(e.target.text.value)
+        setAlldisplay(true)
+    }
     return (
         <div>
-            <Banner cards={cards}></Banner>
-            <Cards cards={cards}></Cards>
+            <Banner handleClick={handleClick}></Banner>
+            {!alldisplay && cardItem ?<Cards cards={cards}></Cards>:<Cards cards={cardItem}></Cards>}
+            
         </div>
     );
 };
