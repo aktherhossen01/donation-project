@@ -5,7 +5,7 @@ const Card = ({ card }) => {
   const { id,category, title, picture, text_color, category_bg, card_bg } =
     card || {};
   return (
-    <div>
+    <div className="mt-16">
         <Link to={`/donationCard/${id}`}>
         <div>
       <div  style={{background:card_bg}} className="relative flex  flex-col rounded-xl  bg-clip-border text-gray-700 shadow-md">
