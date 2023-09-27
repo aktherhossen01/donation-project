@@ -1,8 +1,7 @@
-# React + Vite
+# React Router Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Add at least 3 Project features.
+- This project is donation campaign project
+- There are several pictures in this project 
+- Like different features for donation . Different features for Pie Chat
+- All in all a great project, we have a search bar in our header where we type in any category name and it comes up. 
