@@ -111,14 +111,14 @@
     },
     {
         "id": 11,
-        "picture": "https://i.ibb.co/kc95PZY/Rectangle-4284.png",
-        "title": "Clean water for children",
-        "category": "Health",
-        "card_bg": "#0052FF26",
-        "category_bg": "#0052FF33",
-        "text_color": "#0052FF",
-        "description": "Growing up in a clean and safe environment is every child's right. Access to clean water, basic toilets, and good hygiene practices not only keeps children thriving, but also gives them a healthier start in life.",
-        "price": 450
+        "picture": "https://i.ibb.co/3r4bVvc/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "card_bg": "#F8714726",
+        "category_bg": "#F8714733",
+        "text_color": "#F87147",
+        "description": "Better food for everyone is a mission to improve food access and quality globally. It aims to provide nutritious, sustainable, and affordable options for all, addressing issues like food deserts, nutrition education, and sustainable farming. This initiative seeks to ensure everyone can enjoy a healthier, more equitable food future.",
+        "price": 430
     },
     {
         "id": 12,

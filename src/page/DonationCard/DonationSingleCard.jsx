@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import swal from "sweetalert";
 
 const DonationSingleCard = ({ card }) => {
@@ -9,7 +10,7 @@ const handleClick=()=>{
     if(!donationItem){
         addArray.push(card)
         localStorage.setItem('donation', JSON.stringify(addArray))
-        swal("Good job!", "Donation Compleat !!", "success");
+        swal("Donation!", "Donation Compleat !!", "success");
     }
     else{
 
@@ -19,7 +20,7 @@ const handleClick=()=>{
 
             addArray.push(...donationItem,card)
             localStorage.setItem('donation', JSON.stringify(addArray))
-            swal("Good job!", "You clicked the button!", "success");
+            swal("Donation!", "Your donation is successful!", "success");
         }
         else{
             swal("error!", "No duplicate", "error");
@@ -38,7 +39,7 @@ const handleClick=()=>{
             </div>
           </div> 
             <h1 className="text-4xl font-bold py-6">{title}</h1>
-          <p>{description}</p>
+          <p className="mb-11">{description}</p>
         </div>
       </div>
     </div>

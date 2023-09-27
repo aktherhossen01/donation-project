@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 
 
 const DonationsCards = ({donetionclub}) => {
-    const { picture, description,title, price,text_color,card_bg,category_bg,category } = donetionclub
+    const { picture,title, price,text_color,card_bg,category_bg,category } = donetionclub
     return (
         <div className="mt-9">
            <div style={{background:card_bg}} className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">

@@ -20,7 +20,7 @@ const Banner = ({handleClick}) => {
             
             <div>
            <form onSubmit={handleClick}>
-           <input  type="text" name="text" placeholder="Type here" className="input input-bordered input-info w-full max-w-2xl" />
+           <input  type="text" name="text" placeholder="Search here..." className="input input-bordered input-info w-full max-w-2xl" />
            <input className="btn btn-primary" type="submit" value="Submit" />
            </form>
             
